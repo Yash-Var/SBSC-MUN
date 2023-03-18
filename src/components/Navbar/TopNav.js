@@ -5,7 +5,7 @@ const TopNav = () => {
     <div className="topnav">
       <div className="container">
         <div className="row">
-          <div className="col-lg-8">weareuddeshhya@gmail.com</div>
+          <div className="col-lg-8"><a href = "mailto: munsocsbsc@gmail.com">munsocsbsc@gmail.com</a></div>
           <div className="row">
             <div className="col-lg-1 yash">
               <a
