@@ -1,17 +1,16 @@
-import "./App.css";
-import Footer from "./components/Footer/Footer";
+import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import TopNav from "./components/Navbar/TopNav";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/stylesheets/style.css";
+// import "./assets/stylesheets/style.css";
+// import "./done.css";
 import Index from "./components/HomePage/Index";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div>
-      <TopNav />
+      <Navbar />
       <Index />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

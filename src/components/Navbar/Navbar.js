@@ -1,27 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import logo from "../../assets/images/logo.png";
-import "./Navbar.css";
+// import { a } from "react-router-dom";
+import logo from "../../assets/images/logo_final.png";
+import "./style.css";
 import TopNav from "./TopNav";
 
 const Navbar = () => {
-  //   const Auth = useContext(AuthContext);
-  //   const dispatch = useContext(DispatchContext);
-
   return (
     <div>
       <TopNav />
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light navbar_full">
         <div className="container">
-          <Link to="/">
-            {/* <img
+          <a href="/">
+            <img
               src={logo}
               alt="logo"
-              width="60px"
+              width="100px"
               // height="54px"
               style={{ marginRight: "32px" }}
-            /> */}
-          </Link>
+            />
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -35,35 +32,35 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto nav">
-              {/* <li className="nav-item">
-                  <Link className="nav-link" to="/">
-                    Home
-                  </Link>
-                </li> */}
               <li className="nav-item">
-                <Link className="nav-link" to="/about-uddeshhya">
+                <a className="nav-link" href="">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/about-uddeshhya">
                   About us
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/ways-to-help">
-                  Ways to Help
-                </Link>
+                <a className="nav-link" href="/ways-to-help">
+                  Events
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/projects">
-                  Projects
-                </Link>
+                <a className="nav-link" href="/projects">
+                  Editorials
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/team">
-                  Team
-                </Link>
+                <a className="nav-link" href="/team">
+                  Meet The Team
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
+                <a className="nav-link" href="/contact">
                   Contact us
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

@@ -6,16 +6,15 @@ import SubAbout from "../AboutSection/SubAbout";
 // import Team from "../Team/Team";
 // import * as apiService from "../../utils/Services";
 // import AllProjects from "../Projects/AllProjects";
-
+import "../../assets/stylesheets/style.css";
 function Index() {
   return (
     <div>
       <TopBanner />
-      <About/>
-      <SubAbout/>
+      <About />
+      <SubAbout />
     </div>
   );
 }
-
 
 export default Index;

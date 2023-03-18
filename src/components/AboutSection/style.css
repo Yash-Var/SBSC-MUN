@@ -1,6 +1,6 @@
 .glimpse-card {
     height: 400px;
-    background: linear-gradient(89.35deg, rgba(241, 241, 241, 0.8) 31.39%, rgba(255, 255, 255, 0) 99.74%), url('../../assets/images/SubAbout3.jpg');
+    background: linear-gradient(89.35deg, rgba(241, 241, 241, 0.8) 31.39%, rgba(255, 255, 255, 0) 99.74%), url("../../assets/images/SubAbout3.jpg") !important;
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -10,5 +10,5 @@
 }
 
 .card-about-1 {
-    background: rgba(213, 8, 8, 0.8);
+    background: rgba(35, 61, 213, 0.8);
 }
