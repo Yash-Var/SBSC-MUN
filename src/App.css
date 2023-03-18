@@ -14,6 +14,17 @@ margin-left: 3em !important;
   display: none;
  } */
 }
+@media screen and (max-width: 1200px) {
+ /* .done{
+  display: none;
+ } */
+ .navbar_full{
+    margin-left: 0rem !important;
+}
+}
 .icon{
     color: #181818;
+}
+.navbar_full{
+    margin-left: 10rem;
 }
