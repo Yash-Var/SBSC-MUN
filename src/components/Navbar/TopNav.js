@@ -5,42 +5,42 @@ const TopNav = () => {
     <div className="topnav">
       <div className="container">
         <div className="row">
-          <div className="col-lg-8"><a href = "mailto: munsocsbsc@gmail.com">munsocsbsc@gmail.com</a></div>
+          <div className="col-lg-8 done">munsocsbsc@gmail.com</div>
           <div className="row">
             <div className="col-lg-1 yash">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://m.facebook.com/profile.php?id=298807900136267"
+                href="https://www.linkedin.com/company/the-sbsc-mun-society/"
               >
-                <i className="fab fa-facebook" />{" "}
+                <i class="fa-brands fa-linkedin-in icon"></i>
               </a>
             </div>
             <div className="col-lg-1 yash">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://instagram.com/uddeshhya_"
+                href="https://www.instagram.com/munsoc_sbsc/?igshid=YmMyMTA2M2Y%3D"
               >
-                <i className="fab fa-instagram" />{" "}
+                <i className="fab fa-instagram icon" />{" "}
               </a>
             </div>
             <div className="col-lg-1 yash">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://twitter.com/UDDESHHYA_"
+                href="https://twitter.com/sbscmunsociety?t=ZYUJMljl9mTMyjdGZ7ZD0w&s=09"
               >
-                <i className="fab fa-twitter" />{" "}
+                <i className="fab fa-twitter icon" />{" "}
               </a>
             </div>
             <div className="col-lg-1 yash">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.youtube.com/channel/UCbeFpUnQ6wNY_VH24JXcYdA"
+                href="https://www.youtube.com/@sbscmun"
               >
-                <i className="fab fa-youtube" />{" "}
+                <i className="fab fa-youtube icon" />{" "}
               </a>
             </div>
           </div>
