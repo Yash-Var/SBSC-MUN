@@ -6,7 +6,7 @@ body {
 }
 
 .child_img {
-    background: linear-gradient(90.29deg, rgba(213, 8, 8, 0.4) 0.55%, rgba(213, 8, 8, 0.4) 100%), url(../images/Topbanner.jpg);
+    background: linear-gradient(90.29deg, rgba(72, 189, 231, 0.4) 0.55%, rgba(66, 205, 227, 0.4) 100%), url(../images/Topbanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -36,7 +36,7 @@ body {
 
 .abtmain{
     font-size: 36px;
-    color: #d50808cc;
+    color: #5acae9cc;
     /* color: #FFFFFF; */
     /* text-shadow: 2px 0 rgba(213, 8, 8, 0.8); */
     letter-spacing: 2px;
@@ -45,7 +45,7 @@ body {
 
 .abtglimpse{
     font-size: 2rem;
-    color: rgba(213, 8, 8, 0.8);
+    color: rgba(82, 151, 231, 0.8);
     /* color: #FFFFFF; */
     /* text-shadow: 2px 0 rgba(213, 8, 8, 0.8); */
     letter-spacing: 2px;
@@ -57,7 +57,7 @@ body {
 
 .card {
     border: 0;
-    background: rgba(213, 8, 8, 0.8);
+    background: rgba(65, 133, 200, 0.8);
     /* box-shadow: 0px 4px 8px rgba(0, 0, 8, 0.25); */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     padding: 16px;
@@ -78,8 +78,8 @@ body {
 }
 
 .tough {
-    background: rgba(213, 8, 8, 0.8);
-    background: linear-gradient(to bottom, white 0%, white 25%, rgba(213, 8, 8, 0.8) 0%, rgba(213, 8, 8, 0.8) 100%);
+    background: rgba(118, 226, 245, 0.8);
+    background: linear-gradient(to bottom, white 0%, white 25%, rgba(137, 223, 239, 0.8) 0%, rgba(89, 200, 247, 0.8) 100%);
     /* height: 200; */
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .crd {
-    color: rgba(213, 8, 8, 0.8);
+    color: rgba(82, 179, 253, 0.8);
     /* text-shadow: 1px 0 rgba(213, 8, 8, 0.8); */
     font-size: 20px;
     padding: 0;
