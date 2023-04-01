@@ -14,14 +14,14 @@ class Footer extends Component {
         <div className="container">
           <p
             className="abt"
-            style={{ color: "rgba(213, 8, 8, 0.8)", padding: 0, margin: 0 }}
+            style={{ color: "rgba(82, 179, 253, 0.8)", padding: 0, margin: 0 }}
           >
             Contact Us
           </p>
           <div className="card mt-4 p-0">
             <iframe
-              title="uddeshhya map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.901629831216!2d77.49688071461553!3d28.752353835399596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf471fa0e11dd%3A0xb1b8611a21f64163!2sUDDESHHYA+OFFICE!5e0!3m2!1sen!2sin!4v1560856588584!5m2!1sen!2sin"
+              // title="uddeshhya map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.1590968383543!2d77.2273223!3d28.5349373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce227b6e6ca7b%3A0xe728c244a124a4!2sShaheed%20Bhagat%20Singh%20College!5e0!3m2!1sen!2sin!4v1680373025378!5m2!1sen!2sin"
               width="100%"
               height="350"
               style={{ borderRadius: 4, border: 0 }}
@@ -37,15 +37,12 @@ class Footer extends Component {
               <p>
                 <strong>Reach Us</strong>
               </p>
-              <p>
-                13th KM Stone, KIET Group Of Institutions, Delhi Meerut Highway,
-                Ghaziabad, IN 201206
-              </p>
-              <p>weareuddeshhya@gmail.com</p>
-              <p>+91-8909884156 , +91-8564063392 , +91-7275559927</p>
+              <p>Iron Railing Rd, Phase II, Sheikh Sarai, New Delhi, Delhi.</p>
+              <p>munsocsbsc@gmail.com</p>
+              <p>+91-89799 18777</p>
             </div>
             <div className="col-lg-3" />
-            <div className="col-lg-3">
+            {/* <div className="col-lg-3">
               <p>
                 <strong>Designed and Developed</strong>
               </p>
@@ -57,7 +54,7 @@ class Footer extends Component {
               >
                 <img style={{ width: "100%" }} src={logo} alt="" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
