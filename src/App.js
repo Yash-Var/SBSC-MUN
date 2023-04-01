@@ -5,12 +5,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import "./done.css";
 import Index from "./components/HomePage/Index";
 import Footer from "./components/Footer/Footer";
+import Team from "./components/Team/Team";
 function App() {
   return (
     <div>
-      <Navbar />
-      <Index />
-      <Footer />
+      {/* <Navbar /> */}
+      {/* <Index /> */}
+      <Team />
+      {/* <Footer /> */}
     </div>
   );
 }

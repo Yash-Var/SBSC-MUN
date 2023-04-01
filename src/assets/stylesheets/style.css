@@ -79,7 +79,7 @@ body {
 
 .tough {
     background: rgba(118, 226, 245, 0.8);
-    background: linear-gradient(to bottom, white 0%, white 25%, rgba(137, 223, 239, 0.8) 0%, rgba(89, 200, 247, 0.8) 100%);
+    background: linear-gradient(to bottom, white 0%, white 25%, rgba(118, 164, 248, 0.8) 0%, rgba(89, 126, 247, 0.8) 100%);
     /* height: 200; */
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .crd {
-    color: rgba(82, 179, 253, 0.8);
+    color: rgba(70, 90, 215, 0.8);
     /* text-shadow: 1px 0 rgba(213, 8, 8, 0.8); */
     font-size: 20px;
     padding: 0;
