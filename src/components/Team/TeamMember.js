@@ -1,3 +1,4 @@
+import image from "../static/y.jpeg";
 import React from "react";
 import styled from "styled-components";
 // import Link from "next/link";
@@ -66,9 +67,7 @@ const TeamMember = ({ member }) => {
                 <AiOutlineLink />
               </Social>
             )}
-            <Social href={member.github} target="_blank">
-              <AiFillGithub />
-            </Social>
+
             <Social href={member.linkedin} target="_blank">
               <AiFillLinkedin />
             </Social>
