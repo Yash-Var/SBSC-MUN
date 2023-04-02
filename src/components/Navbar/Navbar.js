@@ -10,7 +10,15 @@ const Navbar = () => {
       {/* <TopNav /> */}
       <nav className="navbar navbar-expand-lg navbar-light navbar_full">
         <div className="container">
-
+        <a href="/">
+            <img
+              src={logo}
+              alt="logo"
+              width="80px"
+              // height="54px"
+              style={{ marginRight: "32px" }}
+            />
+          </a>
          
           <button
             className="navbar-toggler"
@@ -26,15 +34,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto nav">
               <li className="nav-item">
-              <a href="/">
-            <img
-              src={logo}
-              alt="logo"
-              width="80px"
-              // height="54px"
-              style={{ marginRight: "32px" }}
-            />
-          </a>
+             
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="">
