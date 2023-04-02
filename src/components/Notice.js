@@ -53,7 +53,7 @@ const Card = styled.div`
   }
   @media (max-width: 768px) {
     flex-wrap: wrap;
-    background: #db4437;
+    background: #00308f;
     color: #ffffff !important;
     h5,
     p {
