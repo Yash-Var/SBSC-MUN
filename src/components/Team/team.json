@@ -1,14 +1,9 @@
 [
 	{
-		"name": "Ananya Punia",
+		"name": "Anshul Sharma",
 		"linkedin": " https://www.linkedin.com/in/ananyapunia28",
-		"github": "https://github.com/ananyapunia28",
-		"email": " ananyapunia12@gmail.com",
-		"domain": "Android",
-
-		"dob": "28/03/2002",
-		"role": "Lead | Android Developer",
-		"image": "static/images/Ananya_Punia.jpeg"
+		"role": "President",
+		"image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&psig=AOvVaw3aaGxiIjr1NYRqSTh520fJ&ust=1680500989531000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLD5kZbAiv4CFQAAAAAdAAAAABAE"
 	},
 	{
 		"name": "Punia",
@@ -19,7 +14,7 @@
 
 		"dob": "28/03/2002",
 		"role": "Lead | Android Developer",
-		"image": "static/images/Ananya_Punia.jpeg"
+		"image": "../static/y.jpeg"
 	},
 	{
 		"name": "Kushagra Srivastava",

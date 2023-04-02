@@ -4,6 +4,8 @@ import styled from "styled-components";
 import TeamMember from "./TeamMember";
 import image from "./team.png";
 import team from "./team.json";
+import Lottie from "lottie-react";
+import AI from "./team2.json";
 const Heading = styled.h2`
   font-family: Sen;
   font-weight: 700;
@@ -40,23 +42,22 @@ const Team = () => (
         <div className="row mt-5">
           <div className="col-lg-1"></div>
           <div className="col-lg-6">
-            <Heading>Team</Heading>
+            <Heading>Our Team</Heading>
             <Paragraph>
-              We are a group of excited people with a clear sense of purpose. We
-              believe in continuous learning and development. We are adaptive to
-              upcoming challenges in technology and management. We learn, code,
-              preach, and grow together. Here at DSC KIET, we are not just a
-              team, we are a growing family of developers.
+              Presenting you the Core Team for the academic session 2022-23. The
+              Core Team undertakes key roles and works required to smoothly run
+              the society and its departments.
             </Paragraph>
           </div>
           <ImageWrapper className="col-lg-4">
-            <img
+            {/* <img
               className="img-fluid mb-1"
               src={image}
               alt="team at dsc kiet"
               loading="lazy"
               width="100%"
-            />
+            /> */}
+            <Lottie loop={true} animationData={AI} />
           </ImageWrapper>
           <div className="col-lg-1"></div>
         </div>
