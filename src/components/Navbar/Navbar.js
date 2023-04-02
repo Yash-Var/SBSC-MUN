@@ -7,7 +7,7 @@ import TopNav from "./TopNav";
 const Navbar = () => {
   return (
     <div>
-      <TopNav />
+      {/* <TopNav /> */}
       <nav className="navbar navbar-expand-lg navbar-light navbar_full">
         <div className="container">
 

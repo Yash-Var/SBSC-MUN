@@ -90,7 +90,7 @@ const Event = () => {
       </div>
       <div className="container">
         <div className="abtmain1 mt-5">
-          <p>Committee: International Press</p>
+          <p>International Press</p>
         </div>
         <span className="content">
           Agenda: Call for journalists and photographers for strengthened role
