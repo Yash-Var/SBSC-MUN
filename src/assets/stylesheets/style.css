@@ -33,7 +33,22 @@ body {
     letter-spacing: 2px;
     font-weight: bold;
 }
-
+.abtmain1{
+    font-size: 30px;
+    color: #5acae9cc;
+    /* color: #FFFFFF; */
+    /* text-shadow: 2px 0 rgba(213, 8, 8, 0.8); */
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.abtmain2{
+    font-size: 50px;
+    color: #000;
+    /* color: #FFFFFF; */
+    /* text-shadow: 2px 0 rgba(213, 8, 8, 0.8); */
+    letter-spacing: 2px;
+    font-weight: bold;
+}
 .abtmain{
     font-size: 36px;
     color: #5acae9cc;
@@ -42,7 +57,9 @@ body {
     letter-spacing: 2px;
     font-weight: bold;
 }
-
+.content{
+    font-size: 30px;
+}
 .abtglimpse{
     font-size: 2rem;
     color: rgba(82, 151, 231, 0.8);
@@ -128,3 +145,8 @@ label {
 a:hover {
     text-decoration: none;
 }
+@media screen and (max-width: 420px) {
+   .abtmain2{
+    font-size: 35px;
+   }
+  }

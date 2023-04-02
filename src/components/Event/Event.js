@@ -1,10 +1,18 @@
 import React from "react";
-import yash from "../Team/Debate.json";
+import yash from "../Team/Debate_.json";
 // import Ai from "../../Event.css";
 import "../../Event.css";
 // import { AiFillAccountBook } from "react-icons/ai";
 import Lottie from "lottie-react";
 import Carousel from "../Carousel";
+import Notice from "../Notice";
+import notice from "../notice.json";
+import Layout from "../Team/Layout";
+import styled from "styled-components";
+import "../../assets/stylesheets/style.css";
+const NoticeSection = styled.div`
+  display: ${({ isVisible }) => (isVisible ? "block" : "none")};
+`;
 const Event = () => {
   return (
     <div>
@@ -38,6 +46,62 @@ const Event = () => {
         </div>
         <center> {/* <Carousel /> */}</center>
       </div>
+      <div className="container">
+        <center>
+          <div className="abtmain2 mt-5">
+            <p>Committee In Youth Conclave 2023:</p>
+          </div>
+        </center>
+        <span>
+          {/* <strong>
+            Committee: United Nations General Assembly Agenda: Deliberation upon
+            Sustainable Development Goals 2030 and their implementation with
+            special emphasis on climate change.
+          </strong> */}
+        </span>
+      </div>
+      <div className="container">
+        <div className="abtmain1 mt-5">
+          <p>Committee: United Nations General Assembly</p>
+        </div>
+        <span className="content">
+          Agenda: Deliberation upon Sustainable Development Goals 2030 and their
+          implementation with special emphasis on climate change.
+        </span>
+      </div>
+      <div className="container">
+        <div className="abtmain1 mt-5">
+          <p>Committee: United Nations Human Rights Council</p>
+        </div>
+
+        <span>
+          Agenda: Deliberation upon current human rights situation in Ukraine in
+          the context of Russian invasion.
+        </span>
+      </div>
+      <div className="container">
+        <div className="abtmain1 mt-5">
+          <p>Committee: All India Political Parties Meet</p>
+        </div>
+        <span>
+          Agenda: Deliberation upon 9 years of NDA government with special
+          emphasis on economy and secularism.
+        </span>
+      </div>
+      <div className="container">
+        <div className="abtmain1 mt-5">
+          <p>Committee: International Press</p>
+        </div>
+        <span>
+          Agenda: Call for journalists and photographers for strengthened role
+          of media
+        </span>
+      </div>
+      <Layout>
+        <NoticeSection isVisible={notice.notice.isVisible}>
+          <Notice />
+        </NoticeSection>
+      </Layout>
     </div>
   );
 };
