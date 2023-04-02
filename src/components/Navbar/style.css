@@ -15,7 +15,7 @@
 }
 
 .nav-link:hover{
-    border-bottom: 3px solid #d50808;
+    border-bottom: 3px solid #00308f;
 }
 
 .nav-link {
@@ -25,10 +25,13 @@
 }
 
 .nav-red {
-    color: #d50808!important;
+    color: #00308f!important;
 }
 
 .topnav{
     background: #f1f1f1;
     padding: 8px;
 }
+ /* .kushagra{
+display: flex;
+} */
