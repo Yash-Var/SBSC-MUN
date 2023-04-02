@@ -5,7 +5,7 @@ import TeamMember from "./TeamMember";
 import image from "./team.png";
 import team from "./team.json";
 import Lottie from "lottie-react";
-import AI from "./team2.json";
+import AI from "./teamo.json";
 const Heading = styled.h2`
   font-family: Sen;
   font-weight: 700;
