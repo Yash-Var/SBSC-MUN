@@ -42,7 +42,13 @@ class Footer extends Component {
               <p>+91-89799 18777</p>
             </div>
             <div className="col-lg-3" />
-            <div className="col-lg-3">
+            {/* <div className="col-lg-3">
+              <p>
+                <strong>Designed and Developed</strong>
+              </p>
+              <p>in collaboration with</p>
+              <a
+                href="http://dsckiet.com?utm_source=uddeshhya"<div className="col-lg-3">
               <p>
                 <strong>Designed and Developed</strong>
               </p>
@@ -55,6 +61,12 @@ class Footer extends Component {
                 <img style={{ width: "100%" }} src={logo} alt="" />
               </a>
             </div>
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img style={{ width: "100%" }} src={logo} alt="" />
+              </a>
+            </div> */}
           </div>
         </div>
       </footer>
