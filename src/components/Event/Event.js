@@ -62,7 +62,7 @@ const Event = () => {
       </div>
       <div className="container">
         <div className="abtmain1 mt-5">
-          <p>Committee: United Nations General Assembly</p>
+          <p>United Nations General Assembly</p>
         </div>
         <span className="content">
           Agenda: Deliberation upon Sustainable Development Goals 2030 and their
@@ -71,19 +71,19 @@ const Event = () => {
       </div>
       <div className="container">
         <div className="abtmain1 mt-5">
-          <p>Committee: United Nations Human Rights Council</p>
+          <p>United Nations Human Rights Council</p>
         </div>
 
-        <span>
+        <span className="content">
           Agenda: Deliberation upon current human rights situation in Ukraine in
           the context of Russian invasion.
         </span>
       </div>
       <div className="container">
         <div className="abtmain1 mt-5">
-          <p>Committee: All India Political Parties Meet</p>
+          <p>All India Political Parties Meet</p>
         </div>
-        <span>
+        <span className="content">
           Agenda: Deliberation upon 9 years of NDA government with special
           emphasis on economy and secularism.
         </span>
@@ -92,7 +92,7 @@ const Event = () => {
         <div className="abtmain1 mt-5">
           <p>Committee: International Press</p>
         </div>
-        <span>
+        <span className="content">
           Agenda: Call for journalists and photographers for strengthened role
           of media
         </span>
