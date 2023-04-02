@@ -7,7 +7,7 @@ class SubAbout extends Component {
       <div className="tough mt-1">
         <div className="container pb-4">
           <div className="card glimpse-card">
-            <p className="abtglimpse pos">
+            <p className="abtglimpse pos kushagra">
             Orientation Programme
               
             </p>
