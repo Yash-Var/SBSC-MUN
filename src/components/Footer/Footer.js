@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../../assets/images/dsc.svg";
+// import logo from "../../assets/images/dsc.svg";
 class Footer extends Component {
   state = {};
   render() {

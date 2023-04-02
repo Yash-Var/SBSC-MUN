@@ -7,8 +7,8 @@ import TopNav from "./TopNav";
 const Navbar = () => {
   return (
     <div>
-      <TopNav />
-      <nav className="navbar navbar-expand-lg navbar-light navbar_full ">
+      {/* <TopNav /> */}
+      <nav className="navbar navbar-expand-lg navbar-light navbar_full">
         <div className="container">
           <button
             className="navbar-toggler"
@@ -30,12 +30,12 @@ const Navbar = () => {
                     alt="logo"
                     width="80px"
                     // height="54px"
-                    // style={{ marginRight: "32px" }}
+                    style={{ marginRight: "32px" }}
                   />
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="">
                   Home
                 </a>
               </li>
