@@ -57,7 +57,7 @@ body {
 
 .card {
     border: 0;
-    background: rgba(65, 133, 200, 0.8);
+    background: #00308f;
     /* box-shadow: 0px 4px 8px rgba(0, 0, 8, 0.25); */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     padding: 16px;
@@ -79,7 +79,7 @@ body {
 
 .tough {
     background: rgba(118, 226, 245, 0.8);
-    background: linear-gradient(to bottom, white 0%, white 25%, rgba(118, 164, 248, 0.8) 0%, rgba(89, 126, 247, 0.8) 100%);
+    background: linear-gradient(to bottom, white 0%, white 25%, rgba(118, 164, 248, 0.8) 0%, #00308f 100%);
     /* height: 200; */
 }
 
