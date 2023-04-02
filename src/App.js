@@ -6,13 +6,31 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Index from "./components/HomePage/Index";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
+import About from "./components/AboutSection/About";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
       {/* <Navbar /> */}
       {/* <Index /> */}
-      <Team />
+      {/* <Team /> */}
       {/* <Footer /> */}
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/team" element={<Team />} />
+          {/* <Route path="/blog" element={<Blogs />} /> */}
+          {/* <Route path="/events" element={<Events />} /> */}
+          {/* <Route path="/blogs" element={<Blogs />} /> */}
+
+          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/summit" element={<Summit />} /> */}
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

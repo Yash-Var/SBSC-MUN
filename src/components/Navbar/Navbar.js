@@ -14,7 +14,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="logo"
-              width="100px"
+              width="80px"
               // height="54px"
               style={{ marginRight: "32px" }}
             />
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about-uddeshhya">
+                <a className="nav-link" href="/about">
                   About us
                 </a>
               </li>
