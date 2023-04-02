@@ -41,7 +41,7 @@ const Card = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #db4437;
+  background: #00308f;
   border-radius: 8px;
   color: #ffffff !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
@@ -73,7 +73,7 @@ const Notice = () => {
     console.log(no.notice.title);
   }
   return (
-    <div className="pb-2">
+    <div className="pb-2 pt-4">
       <Card className="p-5 mb-5">
         <div className="notice-info mr-2">
           <NoticeTitle>{no.notice.date}</NoticeTitle>
