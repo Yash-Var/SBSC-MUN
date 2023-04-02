@@ -8,13 +8,13 @@ class SubAbout extends Component {
         <div className="container pb-4">
           <div className="card glimpse-card">
             <p className="abtglimpse pos">
-              lorem ipsum <br />
-              is a dummy text
+            Orientation Programme
+              
             </p>
           </div>
           <div className="mt-5">
             <p className="abt mt-4" style={{ color: "white" }}>
-              <strong>Ways to Help</strong>
+              <strong></strong>
             </p>
           </div>
           <div className="row mt-4 mb-4">
