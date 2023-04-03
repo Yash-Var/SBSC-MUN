@@ -1,6 +1,8 @@
 import React from "react";
 // import { a } from "react-router-dom";
+import final_logo from "../../assets/images/final_logo.png";
 import logo from "../../assets/images/logo_final.png";
+
 import "./style.css";
 import TopNav from "./TopNav";
 
@@ -17,6 +19,17 @@ const Navbar = () => {
               width="80px"
               // height="54px"
               style={{ marginRight: "32px" }}
+              className="logo"
+            />
+          </a>
+          <a href="/">
+            <img
+              src={final_logo}
+              alt="logo"
+              width="80px"
+              // height="54px"
+              // style={{ marginRight: "32px" }}
+              className="final_logo"
             />
           </a>
 
