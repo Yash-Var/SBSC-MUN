@@ -1,6 +1,8 @@
 import React from "react";
 // import { a } from "react-router-dom";
+import final_logo from "../../assets/images/final_logo.png";
 import logo from "../../assets/images/logo_final.png";
+
 import "./style.css";
 import TopNav from "./TopNav";
 
@@ -10,16 +12,27 @@ const Navbar = () => {
       {/* <TopNav /> */}
       <nav className="navbar navbar-expand-lg navbar-light navbar_full">
         <div className="container">
-        <a href="/">
+          <a href="/">
             <img
               src={logo}
               alt="logo"
               width="80px"
               // height="54px"
               style={{ marginRight: "32px" }}
+              className="logo"
             />
           </a>
-         
+          <a href="/">
+            <img
+              src={final_logo}
+              alt="logo"
+              width="80px"
+              // height="54px"
+              // style={{ marginRight: "32px" }}
+              className="final_logo"
+            />
+          </a>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -33,11 +46,9 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto nav">
+              <li className="nav-item"></li>
               <li className="nav-item">
-             
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="">
+                <a className="nav-link" href="/">
                   Home
                 </a>
               </li>

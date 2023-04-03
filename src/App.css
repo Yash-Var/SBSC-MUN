@@ -28,3 +28,22 @@ margin-left: 3em !important;
 .navbar_full{
     margin-left: 18rem;
 }
+.final_logo{
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    .navbar_full{
+        padding: 0px !important;
+        padding-right: 21px !important;
+    }
+    .final_logo{
+        display: block;
+        width: 250px !important;
+        margin-left: -80px !important;
+        /* margin-right: 0px !important; */
+    }
+    .logo{
+        display: none !important;
+        /* visibility: hidden !important; */
+    }
+   }
