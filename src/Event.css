@@ -31,6 +31,7 @@
         font-size: larger;
         padding-top: 8rem;
         word-spacing: 5px;
+        text-align: justify;
     }
     .text-about-2{
         width: 20%;
