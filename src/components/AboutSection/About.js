@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="container">
         <div className="abtmain mt-5">
-          <p className="heading-text">ABOUT SBSC MUM SOCIETY </p>
+          <p className="heading-text">ABOUT THE SBSC MUM SOCIETY </p>
         </div>
         <span>
           <strong>
