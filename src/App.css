@@ -47,3 +47,26 @@ margin-left: 3em !important;
         /* visibility: hidden !important; */
     }
    }
+
+   .heading-text{
+    color: #181818;
+     font-family: sen; 
+   }
+   .heading-text_editorail{
+    color: #181818;
+     font-family: sen; 
+     text-align: center;
+   }
+    
+   .yash_{
+    color: #181818;
+    font-family: sen;
+    text-align: center;
+    white-space: nowrap;
+   }
+
+
+   .united{
+    height: 30rem !important;
+    width: 70rem !important;
+   }

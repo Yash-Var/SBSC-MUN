@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import About from "./components/AboutSection/About";
 import Event from "./components/Event/Event";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Editorials } from "./components/Editorials/Editorials";
 function App() {
   return (
     <div>
@@ -25,7 +26,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           {/* <Route path="/blog" element={<Blogs />} /> */}
           <Route path="/event" element={<Event />} />
-          {/* <Route path="/blogs" element={<Blogs />} /> */}
+          <Route path="/editorial" element={<Editorials />} />
 
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="/summit" element={<Summit />} /> */}
