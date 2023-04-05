@@ -50,12 +50,13 @@ margin-left: 3em !important;
 
    .heading-text{
     color: #181818;
-     font-family: sen; 
+    font-family: sen; 
    }
    .heading-text_editorail{
-    color: #181818;
+    /* color: #181818;
      font-family: sen; 
-     text-align: center;
+     text-align: center; */
+     /* word-spacing: 10px !important; */
    }
     
    .yash_{
