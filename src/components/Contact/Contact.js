@@ -39,7 +39,7 @@ const Contact = (props) => {
   }
   return (
     <div className="container">
-      <div className="abtmain mt-5">
+      <div className="abtmain heading_text mt-5">
         <p>Get in Touch</p>
       </div>
 
