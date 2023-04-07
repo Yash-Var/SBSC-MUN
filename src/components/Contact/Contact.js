@@ -1,7 +1,42 @@
 import React, { useState } from "react";
 // import * as apiService from "../../utils/Services";
-
+import axios from "axios";
+// import env from "react-dotenv";
 const Contact = (props) => {
+  const url = "http://localhost:3030";
+  const [data, setData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: "",
+  });
+  function handle(e) {
+    const newData = { ...data };
+    newData[e.target.id] = e.target.value;
+    setData(newData);
+    console.log(newData);
+  }
+  function submit(e) {
+    e.preventDefault();
+    console.log("click");
+    axios
+      .post(url, {
+        name: data.name,
+        phone: data.phone,
+        email: data.email,
+        message: data.message,
+      })
+      .then((res) => {
+        console.log(res.data);
+        alert("Thanks for Equiring we will shortly contact you :)");
+        setData({
+          name: "",
+          phone: "",
+          email: "",
+          message: "",
+        });
+      });
+  }
   return (
     <div className="container">
       <div className="abtmain mt-5">
@@ -12,13 +47,16 @@ const Contact = (props) => {
         <div className="col-lg-12 mx-auto">
           <div className="card">
             <div className="main-box">
-              <form>
+              <form onSubmit={(e) => submit(e)}>
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-4 mt-3">
                       <label>Name</label>
                       <input
                         type="text"
+                        id="name"
+                        onChange={(e) => handle(e)}
+                        value={data.name}
                         name="name"
                         className="form-control"
                         placeholder="Full name"
@@ -31,6 +69,9 @@ const Contact = (props) => {
                       <input
                         required
                         name="phone"
+                        id="phone"
+                        onChange={(e) => handle(e)}
+                        value={data.phone}
                         type="number"
                         className="form-control"
                         placeholder="Number"
@@ -41,6 +82,10 @@ const Contact = (props) => {
                       <label>Email</label>
                       <input
                         required
+                        id="email"
+                        // name="email"
+                        onChange={(e) => handle(e)}
+                        value={data.email}
                         name="email"
                         type="email"
                         className="form-control"
@@ -51,7 +96,11 @@ const Contact = (props) => {
                       <label>Message</label>
                       <textarea
                         className="form-control"
+                        id="message"
                         name="message"
+                        onChange={(e) => handle(e)}
+                        value={data.message}
+                        // name="message"
                         cols="30"
                         required
                         rows="5"

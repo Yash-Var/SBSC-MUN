@@ -7,10 +7,9 @@ class About extends Component {
       <div className="container">
         <div className="abtmain mt-5">
           <span className="heading_text">About The SBSC MUM Society </span>
-          
         </div>
         <span>
-          <br/>
+          <br />
           <strong>
             Founded in 2022, The SBSC Model United Nations Society is an
             official academic society of Shaheed Bhagat Singh College,
@@ -67,7 +66,7 @@ class About extends Component {
           can help make this world a peaceful place. We believe in the
           inclusiveness and togetherness.
         </p>
-        <br/>
+        <br />
         {/* <div className="row pt-2">
           <div className="col-lg-3 mb-4">
             <div className="card card-about">
