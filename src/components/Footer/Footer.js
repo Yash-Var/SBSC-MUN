@@ -13,8 +13,7 @@ class Footer extends Component {
       >
         <div className="container">
           <p
-            className="abt"
-            style={{ color: "rgba(82, 179, 253, 0.8)", padding: 0, margin: 0 }}
+            className="abtmain heading_text"
           >
             Contact Us
           </p>
