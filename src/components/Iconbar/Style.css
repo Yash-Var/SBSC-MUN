@@ -53,3 +53,22 @@
   .icon-bar .linkedin {
     background: #0077b5;
   }
+  @media screen and (max-width: 500px) {
+  .icon-bar a {
+    width: 11rem;
+    background: #3b5999;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    transition: all 0.5s linear;
+    transform: translateX(-8.7rem);
+  }
+  .icon-bar a .fab {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    animation: letszoom 3s linear alternate-reverse infinite;
+  }
+}
