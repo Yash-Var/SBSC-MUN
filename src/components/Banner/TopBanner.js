@@ -9,7 +9,7 @@ class TopBanner extends Component {
           <div className="row">
             <div className="col-lg-6">
               <span className="heading">
-                <strong></strong>
+                <strong>Welcome TO SBSC MUN</strong>
               </span>
             </div>
           </div>
