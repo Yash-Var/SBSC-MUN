@@ -89,7 +89,71 @@ export const Editorials = () => {
         <center>
           <img src={United__} className="img-fluid united" />
         </center>
+        <p>
+          <br />
+          The world's biggest intergovernmental organization is not free from
+          dark spots. The success rate in solving global conflicts is still not
+          desirable. The United Nations had suspended South Africa from the
+          organization as a punishment for its apartheid policy in 1974 world
+          it's only working hard just to end with condemning Russia's invasion
+          of Ukraine. Russia still remains a member of the organization despite
+          its invasion of sovereign nations and committing war crimes. The
+          United Nations sanctions do not work as Russia can veto the Security
+          Council resolutions. China still sits in the United Nations Human
+          Rights Council(UNHRC) despite its atrocities against the Uyghurs in
+          Xinjiang province. The World Health Organisation(WHO) faced much flak
+          for allegedly not disclosing the true information regarding the
+          covid-19 disease. China impeded the WHO investigation into the
+          disease. The success rate of the Paris Agreement is not good as
+          developed nations are not releasing the required funds to be used by
+          developing nations for tackling climate change.
+        </p>
+        <span className="heading-text_editorail">
+          <strong>Challenges in 21st century</strong>
+        </span>
         <br />
+        <br />
+        <p>
+          The United Nations has much on its plate. The United Nations has to
+          work actively to prevent any break out of violence by pre-emptive
+          analysis of the threatening situation. The visit of the UN
+          Secretary-General to Moscow came too late to broker a deal on the
+          evacuation of civilians from the besieged Azovstal steelworks in
+          Mariupol in the ongoing Russia-Ukraine war. Mali has seen two coups in
+          the last 2 years with the death of numerous civilians. Restrictions
+          imposed by Mali impede the UN's peacekeeping mission in the execution
+          of its work. The Intergovernmental Panel on Climate Change (IPCC) has
+          said the world is going to be 2°C warmer by the end of this century. A
+          one-meter rise in sea level will displace 7.1 million people in India.
+          India has set the target year 2070 to achieve net-zero carbon
+          emissions. The covid-19 pandemic has increased the poverty and school
+          dropout numbers of children. The world is not on track to achieve
+          Sustainable Development Goal 2, Zero Hunger by 2030. The pandemic has
+          worsened the situation. The United Nations is seen as having selective
+          nature of condemning states for violations.
+        </p>
+        <span className="heading-text_editorail">
+          <strong>Reforms Required</strong>
+        </span>
+        <br />
+        <br />
+        <p>
+          The current situation is different from that in 1945. The world order
+          has changed, new international and regional challenges are emerging,
+          and many nations have become significant in the world. It's therefore
+          much required that the United Nations must carry out reforms in its
+          structure and working. The United Nations Security Council is one of
+          the main bodies which has 5 permanent member states with vetoes. It
+          must expand its veto and permanent membership in new region-based
+          groupings. The G4 nations( Brazil, Germany, India, and Japan) support
+          each other's bid for permanent seats. The General Assembly seems to be
+          a mere spectator as its recommendations are non-binding and leads to
+          the ineffectiveness of the UN. It should be changed. The International
+          Monetary Fund(IMF) and the World Bank have been alleged for many
+          irregularities and a lack of transparency. The work should be made
+          clear and concerns should be addressed. The investigations of the WHO
+          should be carried out to find the origin of Covid-19.
+        </p>
       </div>
     </div>
   );
