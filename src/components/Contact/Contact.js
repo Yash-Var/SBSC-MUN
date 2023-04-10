@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 // import env from "react-dotenv";
 const Contact = (props) => {
-  const url = "http://localhost:3030";
+  const url = "https://sbsc-mun-backend.onrender.com";
   const [data, setData] = useState({
     name: "",
     phone: "",
