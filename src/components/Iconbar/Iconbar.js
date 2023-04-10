@@ -25,7 +25,7 @@ export const Iconbar2 = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/company/the-sbsc-mun-society/"
+          href="https://www.linkedin.com/in/kushagra-varshney0511/"
           class="linkedin"
           target="_kushagra"
         >

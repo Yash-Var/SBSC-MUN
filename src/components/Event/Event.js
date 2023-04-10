@@ -4,7 +4,7 @@ import yash from "../Team/Debate_.json";
 import "../../Event.css";
 // import { AiFillAccountBook } from "react-icons/ai";
 import Lottie from "lottie-react";
-import Carousel from "../Carousel";
+import Carousel from "../Carousel/Carousel";
 import Notice from "../Notice";
 import notice from "../notice.json";
 import Layout from "../Team/Layout";
@@ -97,6 +97,7 @@ const Event = () => {
           of media
         </span>
       </div>
+      <Carousel />
       <Layout>
         <NoticeSection isVisible={notice.notice.isVisible}>
           <Notice />
