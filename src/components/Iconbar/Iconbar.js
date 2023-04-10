@@ -11,7 +11,7 @@ export const Iconbar2 = () => {
         <a
           href="https://twitter.com/sbscmunsociety?t=ZYUJMljl9mTMyjdGZ7ZD0w&s=09"
           class="telegram"
-          target="_kushagra"
+          target="_mun"
         >
           click here to visit <i class="fa-brands fa-twitter fab"></i>
         </a>
@@ -19,15 +19,15 @@ export const Iconbar2 = () => {
         <a
           href="https://instagram.com/munsoc_sbsc?igshid=YmMyMTA2M2Y="
           class="instagram"
-          target="_kushagra"
+          target="_mun"
         >
           click here to visit <i class="fab fa-instagram"></i>
         </a>
 
         <a
-          href="https://www.linkedin.com/in/kushagra-varshney0511/"
+          href="https://www.linkedin.com/company/the-sbsc-mun-society/"
           class="linkedin"
-          target="_kushagra"
+          target="_mun"
         >
           click here to visit <i class="fab fa-linkedin"></i>
         </a>
@@ -35,7 +35,7 @@ export const Iconbar2 = () => {
         <a
           href="https://youtube.com/@sbscmun?feature=shares"
           class="youtube"
-          target="_kushagra"
+          target="_mun"
         >
           click here to visit <i class="fab fa-youtube-square"></i>
         </a>
