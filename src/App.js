@@ -9,6 +9,7 @@ import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
 import About from "./components/AboutSection/About";
 import Event from "./components/Event/Event";
+import { Iconbar2 } from "./components/Iconbar/Iconbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Editorials } from "./components/Editorials/Editorials";
 function App() {
@@ -20,6 +21,7 @@ function App() {
       {/* <Footer /> */}
       <BrowserRouter>
         <Navbar />
+        <Iconbar2/>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
