@@ -103,6 +103,24 @@ const Event = () => {
           <Notice />
         </NoticeSection>
       </Layout>
+      <div className="container">
+        <div className="about-text">Project SDG</div>
+        <p>
+          <br />
+          Project Sustainable Development Goals will be a premier project of
+          college which shall focus on 17 global goals adopted by the United
+          Nations in 2015 as a universal call to end poverty, protect the
+          planet, and ensure achivements of goals by 2030.
+        </p>
+        <p>
+          <br />
+          The 17 Sustainable Development Goals and 169 targets and 241
+          indicators are there to measure the progress toward achieving this
+          agenda of global peace and prosperity. The society will undertake
+          related activities under Project SDG to advance mission of the United
+          Nations. Date of launch will be announced soon. Stay tuned with us.
+        </p>
+      </div>
     </div>
   );
 };

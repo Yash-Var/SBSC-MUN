@@ -12,11 +12,7 @@ class Footer extends Component {
         }}
       >
         <div className="container">
-          <p
-            className="abtmain heading_text"
-          >
-            Contact Us
-          </p>
+          <p className="abtmain heading_text">Contact Us</p>
           <div className="card mt-4 p-0">
             <iframe
               // title="uddeshhya map"
@@ -41,31 +37,11 @@ class Footer extends Component {
               <p>+91-89799 18777</p>
             </div>
             <div className="col-lg-3" />
-            {/* <div className="col-lg-3">
+            <div className="col-lg-3">
               <p>
-                <strong>Designed and Developed</strong>
+                <strong>All Rights Reserved At SBSC MUN @2023</strong>
               </p>
-              <p>in collaboration with</p>
-              <a
-                href="http://dsckiet.com?utm_source=uddeshhya"<div className="col-lg-3">
-              <p>
-                <strong>Designed and Developed</strong>
-              </p>
-              <p>in collaboration with</p>
-              <a
-                href="http://dsckiet.com?utm_source=uddeshhya"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img style={{ width: "100%" }} src={logo} alt="" />
-              </a>
             </div>
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img style={{ width: "100%" }} src={logo} alt="" />
-              </a>
-            </div> */}
           </div>
         </div>
       </footer>
