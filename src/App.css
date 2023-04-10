@@ -71,6 +71,8 @@ margin-left: 3em !important;
     height: 30rem !important;
     width: 70rem !important;
    }
+
+
    @media screen and (max-width: 390px) {
     .navbar_full{
         padding: 0px !important;
@@ -86,4 +88,5 @@ margin-left: 3em !important;
         display: none !important;
         /* visibility: hidden !important; */
     }
+
    }
