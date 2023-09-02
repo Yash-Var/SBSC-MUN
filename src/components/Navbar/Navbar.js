@@ -1,5 +1,5 @@
 import React from "react";
-// import { a } from "react-router-dom";
+import { Link } from "react-router-dom";
 import final_logo from "../../assets/images/final_logo.png";
 import logo from "../../assets/images/logo_final.png";
 
@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* <TopNav /> */}
       <nav className="navbar navbar-expand-lg navbar-light navbar_full">
         <div className="container">
-          <a href="/">
+          <Link to="/">
             <img
               src={logo}
               alt="logo"
@@ -21,8 +21,8 @@ const Navbar = () => {
               style={{ marginRight: "32px" }}
               className="logo"
             />
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/">
             <img
               src={final_logo}
               alt="logo"
@@ -31,7 +31,7 @@ const Navbar = () => {
               // style={{ marginRight: "32px" }}
               className="final_logo"
             />
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -48,34 +48,34 @@ const Navbar = () => {
             <ul className="navbar-nav mr-auto nav">
               <li className="nav-item"></li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <Link className="nav-link" to="/about">
                   About us
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/event">
+                <Link className="nav-link" to="/event">
                   Events
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/editorial">
+                <Link className="nav-link" to="/editorial">
                   Editorials
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/team">
+                <Link className="nav-link" to="/team">
                   Meet The Team
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <Link className="nav-link" to="/contact">
                   Contact us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
